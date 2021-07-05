@@ -1,0 +1,72 @@
+$brand-blue: #00458e !default;
+$brand-red: #b90000 !default;
+
+//Descriptive variables for app colors:
+
+$light: hsl(0, 0%, 100%); //#fff (White)
+$dark: hsl(0, 0%, 0%); //#000 (Black)
+$gray: #e5e5e5;
+$dark-gray: #212529;
+$light-gray: #616161;
+$blue: #007bff;
+$dark-blue: #5bc0de;
+$light-blue: #5bc0de;
+$red: #d9534f;
+$green: #239d60;
+$dark-green: darken( $green, 15% );
+$orange: #f0ad4e;
+$highlight: rgba(255,255,240,1);
+$gold: rgb(218,165,32);
+
+// Widget variables:
+
+$widget-border: rgb(224, 224, 224);
+$widget-bg: $light;
+
+// Global element variables:
+
+$header-nav-bg: $brand-blue;
+
+//Functional variables:
+$default-text-color: $dark-gray;
+$primary-text-color: $blue !default;
+$secondary-text-color: $light-gray !default;
+$mute-text: $light-gray !default;
+$insignificant-gray: #8a8a8a;
+$link-color: $brand-blue !default;
+$link-hover-color: $dark-blue !default;
+
+$border-color: $gray !default;
+$dark-border-color: $dark-gray !default;
+$light-border-color: $light-gray !default;
+$highlight-border-color: darken( $highlight, 20% ) !default;
+
+$success: $green !default;
+$info: $blue !default;
+$warning: $orange !default;
+$danger: $red !default;
+
+//Various Font Size:
+
+$xx-small: 10px;
+$x-small: 11px;
+$small: 12px;
+$medium: 14px;
+$base-font: 16px;
+$large: ceil(($medium * 1.25)); // ~18px
+$x-large: 20px;
+$xx-large: 22px;
+$xxx-large: 32px;
+
+$smaller: 9px;
+$larger: 24px;
+$jumbo: 64px;
+
+
+//spacings:
+
+$xs-space: 5px;
+$s-space: $xs-space * 2; //10px
+$m-space: $s-space + $xs-space; //15px
+$lg-space: $s-space * 2; //20px
+$xlg-space: $s-space + $lg-space; //30px

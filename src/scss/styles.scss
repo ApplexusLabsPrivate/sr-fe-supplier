@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    min-height: 100%;
+}
+
+// Override Boostrap variables
+@import "bootstrap-variables";
+
+// Override core variables
+// @import "core-variables";
+
+// Import core styles
+// @import "core/core";
+
+// App Variable styles
+@import "app-var";
+
+// Custom styles
+@import "custom";
